@@ -2,7 +2,7 @@
 
 This is Sri Lanka NIC (National Identity Card) Validation using JQuery Validation.......
 
-# Used Technology
+# Used Technologies
 
 - Tailwind CSS
 - HTML 5
