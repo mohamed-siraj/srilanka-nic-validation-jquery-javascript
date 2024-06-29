@@ -49,8 +49,8 @@ $().ready(function () {
 
         if (checkLength(value) === 10) {
             let getFirstNineDigit = value.substring(0, 9);
-            let getLastDigit = value.substring(9, 10);
-            if (checkNumberOnly(getFirstNineDigit) && !checkNumberOnly(getLastDigit)) {
+            let getLastDigit = value.substring(9, 10).toUpperCase();
+            if (checkNumberOnly(getFirstNineDigit) && !checkNumberOnly(getLastDigit) && getLastDigit === "V") {
                 return true;
             } else {
                 return false;
